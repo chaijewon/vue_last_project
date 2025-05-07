@@ -1,17 +1,19 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
-  <RefView/>
+  <ControlView/>
 </template>
 
 <script>
 // import HelloWorld from './components/HelloWorld.vue'
 // import MsgView from './components/MsgView.vue';
 // import DirectiveView from './components/DirectiveView.vue';
-import RefView from './components/RefView.vue';
+// import RefView from './components/RefView.vue';
+// import EventView from './components/EventView.vue';
+import ControlView from './components/ControlView.vue';
 export default {
   name: 'App',
   components: {
-    RefView
+    ControlView
   }
 }
 </script>
